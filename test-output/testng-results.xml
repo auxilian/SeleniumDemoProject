@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65" started-at="2017-04-23T18:38:58Z" finished-at="2017-04-23T18:38:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33" started-at="2017-04-23T18:38:58Z" finished-at="2017-04-23T18:38:58Z">
+      <class name="samplePackage.Class2">
+        <test-method status="PASS" signature="f()[pri:0, instance:samplePackage.Class2@651fd0]" name="f" duration-ms="1" started-at="2017-04-24T00:08:58Z" finished-at="2017-04-24T00:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- samplePackage.Class2 -->
+      <class name="samplePackage.Class1">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:samplePackage.Class1@1629756]" name="login" duration-ms="9" started-at="2017-04-24T00:08:58Z" data-provider="colege" finished-at="2017-04-24T00:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:samplePackage.Class1@1629756]" name="login" duration-ms="1" started-at="2017-04-24T00:08:58Z" data-provider="colege" finished-at="2017-04-24T00:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- samplePackage.Class1 -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="4" started-at="2017-04-23T18:38:58Z" finished-at="2017-04-23T18:38:58Z">
+      <class name="samplePackage2.Class4">
+        <test-method status="PASS" signature="f()[pri:0, instance:samplePackage2.Class4@be83e4]" name="f" duration-ms="1" started-at="2017-04-24T00:08:58Z" finished-at="2017-04-24T00:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- samplePackage2.Class4 -->
+      <class name="samplePackage2.Class3">
+        <test-method status="PASS" signature="f()[pri:0, instance:samplePackage2.Class3@bd1b6a]" name="f" duration-ms="1" started-at="2017-04-24T00:08:58Z" finished-at="2017-04-24T00:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- samplePackage2.Class3 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

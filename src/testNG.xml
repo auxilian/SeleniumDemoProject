@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="samplePackage.Class1"/>
+      <class name="samplePackage.Class2"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test2">
+    <classes>
+      <class name="samplePackage2.Class3"/>
+      <class name="samplePackage2.Class4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
